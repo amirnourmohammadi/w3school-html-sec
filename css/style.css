@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.header {
+    height: 45px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .left {
+    display: flex;
+    align-items: center;
+}
+
+.header .left .logo {
+    margin-right: 20px;
+}
+
+.header .left .logo img {
+    width: 30px;
+    height: 30px;
+    margin: 17px;
+}
+
+.header .left .menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header .left .menu ul li {
+    margin-right: 20px;
+    color: black;
+    padding: 11px;
+}
+
+.menu ul li i {
+    color: black;
+}
+
+.header .left .menu ul li:hover {
+    background-color: #04aa6d;
+    color: #fff;
+}
+
+.header .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.section1 {
+    background-color: #D9EEE1;
+    ;
+    height: 550px;
+    position: relative;
+}
+
+.section1 .left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+}
+
+.desc {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section1 .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    width: 200px;
+    background-color: gray;
+    margin: 20px auto;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.btn1 {
+    background-color: #04aa6d;
+    color: #fff;
+}
+
+.btn2 {
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.btn3 {
+    background-color: black;
+    color: white;
+}
+
+.btn4 {
+    background-color: #FFC0C7;
+    color: black;
+}
+
+.container {
+    width: 370px;
+    height: 400px;
+    background-color: #e7e9eb;
+    margin: 70px auto;
+    border-radius: 7px;
+    padding: 25px 15px;
+    box-shadow: 0px 0px 3px 0.5px black;
+}
+
+.code {
+    width: 340px;
+    height: 240px;
+    background-color: #fff;
+    margin: 15px auto;
+    border-left: 5px solid ##04aa6d;
+    padding: 10px;
+}
+
+.btn5 {
+    width: 165px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #04aa6d;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+    border: none;
+}
